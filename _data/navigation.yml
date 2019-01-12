@@ -1,0 +1,9 @@
+# Everything that goes in our navbar comes from here.
+
+nav_items:
+
+- name: Home
+  link: /
+
+- name: About
+  link: /about

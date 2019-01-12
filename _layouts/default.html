@@ -7,6 +7,12 @@
         <link rel="stylesheet" href="/assets/css/style.css"/>
     </head>
     <body>
+        <nav>
+            {% for item in site.data.navigation.nav_items %}
+            <a href="{{item.link}}">{{item.name}}</a>
+            {% endfor %}
+        </nav>
+
         {{ content }}
     </body>
 </html>
