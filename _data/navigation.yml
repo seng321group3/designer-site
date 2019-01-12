@@ -3,7 +3,7 @@
 nav_items:
 
 - name: Home
-  link: /
+  link: index
 
 - name: About
-  link: /about
+  link: about
