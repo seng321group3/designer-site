@@ -1,2 +1,6 @@
 # Site build files
 _site
+
+# Ruby stuff
+Gemfile.lock
+
