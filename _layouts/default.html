@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>{{ page.title }}</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
             integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" 
@@ -11,11 +13,16 @@
         <link rel="stylesheet" href="/assets/css/style.css"/>
     </head>
     <body>
-        <nav>
+        <div class="header">
+            <h1>Team Name</h1>
+            <p>Subheading for title</p>
+        </div>
+            
+        <div class="navbar">
             {% for item in site.data.navigation.nav_items %}
             <a href="{{item.link}}">{{item.name}}</a>
             {% endfor %}
-        </nav>
+        </div>
 
         {{ content }}
     </body>
