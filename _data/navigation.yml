@@ -7,3 +7,6 @@ nav_items:
 
 - name: About
   link: about
+
+- name: Team
+  link: team

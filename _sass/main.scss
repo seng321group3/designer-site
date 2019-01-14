@@ -1,3 +1,67 @@
 // Our sass sources go here, and should be automatically added to the site.
 // No problem if you don't know sass, regular CSS should work fine here as 
 // well.
+
+
+/**
+ * Generic flexbox classes.
+ */
+
+div.center-content {
+    text-align: center;
+}
+
+div.flex-container {
+    display: flex;
+
+    @for $i from 1 to 12 {
+        .flex-#{$i} {
+            flex: $i;
+        }
+    }
+}
+
+div.flex-vcenter {
+    align-items: center;
+}
+
+/**
+ * Image classes.
+ */
+
+img {
+    margin: 7px;
+}
+
+img.rounded {
+    border-radius: 50%;
+}
+
+/**
+ * Team page
+ */
+
+div.member-section {
+    padding: 10px 0 10px 0;
+}
+
+div.member-info {
+    min-width: 225px;
+}
+
+img.team-photo {
+    height: 125px;
+}
+
+h2.team-name {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+a.member-email {
+    text-decoration: none;
+    color: black
+}
+a.member-email:hover{
+    text-decoration: underline;
+}
