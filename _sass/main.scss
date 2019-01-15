@@ -114,6 +114,7 @@ div.center-content {
 
 div.flex-container {
     display: flex;
+    flex-wrap: wrap;
 
     @for $i from 1 to 12 {
         .flex-#{$i} {
@@ -147,7 +148,7 @@ div.member-section {
 }
 
 div.member-info {
-    min-width: 225px;
+    min-width: 275px;
 }
 
 img.team-photo {

@@ -2,21 +2,23 @@
 layout: default
 ---
 
-<h1>Team</h1>
+<div class="main">
 
-{% for member in site.data.team.members %}
-<div class="flex-container flex-vcenter member-section">
-    <div class="flex-3 center-content">
-        <img class="rounded team-photo" src="{{member.image}}"/>
-    </div>
-    <div class="flex-9">
-        <h2 class="team-name">{{member.name}}</h2>
-        <span class="team-role">{{member.role}}</span>
+    <h1>Team</h1>
+    
+    <div class="flex-container flex-vcenter member-section">
+        {% for member in site.data.team.members %}
+        <div class="flex-6 center-content member-info">
+            <img class="rounded team-photo" src="{{member.image}}"/>
+            <h2 class="team-name">{{member.name}}</h2>
+            <span class="team-role">{{member.role}}</span>
 
-        <p>
-            <i class="far fa-envelope"></i>
-            <a class="member-email" href="mailto:{{member.email}}">{{member.email}}</a>
-        </p>
+            <p>
+                <i class="far fa-envelope"></i>
+                <a class="member-email" href="mailto:{{member.email}}">{{member.email}}</a>
+            </p>
+        </div>
+        {% endfor %}
     </div>
+
 </div>
-{% endfor %}
