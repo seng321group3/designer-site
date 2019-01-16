@@ -5,8 +5,8 @@ nav_items:
 - name: Home
   link: index
 
-- name: About
-  link: about
+- name: Documents
+  link: documents
 
 - name: Team
   link: team
