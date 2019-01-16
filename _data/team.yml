@@ -5,7 +5,37 @@ members:
   role: Useless, but makes good coffee.
   image: assets/images/charlie.jpg
 
-  name: Charlie Friend
-  email: charles.d.friend@gmail.com
-  role: Useless, but makes good coffee.
-  image: assets/images/charlie.jpg
+- name: Amandeep Johal
+  email: Email
+  role: Role
+  image: assets/images/amandeep.jpg
+
+- name: Amrit Jot Madahar
+  email: Email
+  role: Role
+  image: assets/images/amrit.jpg
+
+- name: Cyrus Erfani
+  email: Email
+  role: Role
+  image: assets/images/cyrus.jpg
+
+- name: Daniel MacRae
+  email: Email
+  role: Role
+  image: assets/images/daniel.jpg
+
+- name: Katelyn Van Gorp
+  email: Email
+  role: Role
+  image: assets/images/katelyn.jpg
+
+- name: Kristian Darlington
+  email: Email
+  role: Role
+  image: assets/images/kristian.jpg
+
+- name: Oliver Lewis
+  email: oliverlewis1339@gmail.com
+  role: Role
+  image: assets/images/oliver.jpg
