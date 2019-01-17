@@ -116,9 +116,9 @@ div.flex-container {
     display: flex;
     flex-wrap: wrap;
 
-    @for $i from 1 to 12 {
+    @for $i from 1 to 8 {
         .flex-#{$i} {
-            flex: $i;
+            flex: 25%;
         }
     }
 }
@@ -149,6 +149,7 @@ div.member-section {
 
 div.member-info {
     min-width: 275px;
+    padding: 30px;
 }
 
 img.team-photo {
@@ -164,6 +165,7 @@ a.member-email {
     text-decoration: none;
     color: black
 }
+
 a.member-email:hover{
     text-decoration: underline;
 }
