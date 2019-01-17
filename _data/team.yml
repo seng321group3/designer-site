@@ -6,33 +6,33 @@ members:
   image: assets/images/charlie.jpg
 
 - name: Amandeep Johal
-  email: Email
-  role: Role
+  email: amaniejohal@gmail.com
+  role: Marketing Director
   image: assets/images/amandeep.jpg
 
 - name: Amrit Jot Madahar
-  email: Email
+  email: amritjot.99madahar@gmail.com
   role: Role
   image: assets/images/amrit.jpg
 
 - name: Cyrus Erfani
-  email: Email
+  email: erfani@uvic.ca
   role: Role
   image: assets/images/cyrus.jpg
 
 - name: Daniel MacRae
-  email: Email
+  email: danielmacraemusic@gmail.com
   role: Role
   image: assets/images/daniel.jpg
 
 - name: Katelyn Van Gorp
-  email: Email
+  email: katelyn.vangorp@gmail.com
   role: Role
   image: assets/images/katelyn.jpg
 
 - name: Kristian Darlington
-  email: Email
-  role: Role
+  email: kristian.f.darlington@gmail.com
+  role: External Relations
   image: assets/images/kristian.jpg
 
 - name: Oliver Lewis
