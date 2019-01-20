@@ -4,3 +4,6 @@ _site
 # Ruby stuff
 Gemfile.lock
 
+# MacOS
+.DS_Store
+
