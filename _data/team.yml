@@ -2,7 +2,7 @@ members:
 
 - name: Charlie Friend
   email: charles.d.friend@gmail.com
-  role: Useless, but makes good coffee.
+  role: Web Developer
   image: assets/images/charlie.jpg
 
 - name: Amandeep Johal
