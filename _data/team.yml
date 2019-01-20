@@ -12,7 +12,7 @@ members:
 
 - name: Amrit Jot Madahar
   email: amritjot.99madahar@gmail.com
-  role: Role
+  role: Marketing Analyst
   image: assets/images/amrit.jpg
 
 - name: Cyrus Erfani
@@ -22,12 +22,12 @@ members:
 
 - name: Daniel MacRae
   email: danielmacraemusic@gmail.com
-  role: Role
+  role: Intern
   image: assets/images/daniel.jpg
 
 - name: Katelyn Van Gorp
   email: katelyn.vangorp@gmail.com
-  role: Role
+  role: Chief Editor
   image: assets/images/katelyn.jpg
 
 - name: Kristian Darlington
