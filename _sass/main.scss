@@ -68,6 +68,15 @@
     padding: 20px;
   }
   
+  /* indenting the body paragraphs on the main page */
+  .foe-body {
+    margin-left: 40px;
+  }
+
+  .foe-vision {
+    font-style: italic;
+  }
+
   /* Main column */
   .main {   
     flex: 70%;
@@ -142,6 +151,11 @@ img.rounded {
 /**
  * Team page
  */
+
+.subpage-header {
+  font-size: 35px;
+  text-align: center;
+}
 
 div.member-section {
     padding: 10px 0 10px 0;
