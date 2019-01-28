@@ -7,35 +7,35 @@ members:
 
 - name: Amandeep Johal
   email: amaniejohal@gmail.com
-  role: Marketing Director
+  role: Systems Analyst 
   image: assets/images/amandeep.jpg
 
 - name: Amrit Jot Madahar
   email: amritjot.99madahar@gmail.com
-  role: Marketing Analyst
+  role: Junior Developer 
   image: assets/images/amrit.jpg
 
 - name: Cyrus Erfani
   email: cyrus.erfani@gmail.com
-  role: Business Systems Analyst
+  role: Network Engineer 
   image: assets/images/cyrus.jpg
 
 - name: Daniel MacRae
   email: danielmacraemusic@gmail.com
-  role: Intern
+  role: Quality Assurance Tester 
   image: assets/images/daniel.jpg
 
 - name: Katelyn Van Gorp
   email: katelyn.vangorp@gmail.com
-  role: Chief Editor
+  role: Scrum Master 
   image: assets/images/katelyn.jpg
 
 - name: Kristian Darlington
   email: kristian.f.darlington@gmail.com
-  role: External Relations
+  role: Senior Developer 
   image: assets/images/kristian.jpg
 
 - name: Oliver Lewis
   email: oliverlewis1339@gmail.com
-  role: Web Developer
+  role: Operational Manager
   image: assets/images/oliver.jpg
